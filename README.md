@@ -7,7 +7,7 @@ The **Photon Counting EMCCD** module is useful for converting raw photon-exposed
 2. These saved correction files can then be used to process photon-exposed data acquired with the same camera settings as the dark-noise data.
 3. Run the EMCCD_photon_counting_pipeline.ipynb with a suitable noise file and data file in ".sif" format obtained from an ANDOR EMCCD.
 4. Use the "EMCCD_CUDA_documented.py" as the base file to be imported to the notebook.
-5.  The EMCCD_pytorch_Documented.py is the version written in pytorch and can run on both an Nvidia PC as well as MAC GPU.
+5.  The EMCCD_pytorch_Documented.py is the version written in pytorch and can run on both an Nvidia PC as well as MAC GPU. It works in the same way, but does not have the modules for correlations yet. Will update soon
 
 ## Required Packages
 
